@@ -1,0 +1,87 @@
+# Tutorial membuat table dengan bantuan CSS dan Bootstrap
+
+Halo, kali ini saya akan share tentang tutorial membuat table dengan bantuan CSS dan Bootstrap.
+
+Langkah Pertama, buka teks editor favorit Anda.
+
+Buat file HTML bernama project5.html
+
+Berikut scriptnya:
+
+<pre>
+<html>
+<head>
+<title>Project 5 - Rumah Coding</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Project 5 From Rumah Coding</h2>
+    <table class="table table-striped">
+      <tr>
+        <th>ID</th>
+        <th>Emp ID / Name</th>
+        <th>Site</th>
+        <th>Attedance</th>
+        <th>Salary/hr</th>
+        <th>In Time</th>
+        <th>Out Time</th>
+        <th>Launch Time</th>
+        <th>Over Time</th>
+        <th>Advance Amt</th>
+        <th>Total Time</th>
+      </tr>
+      <tr>
+        <td><strong>2</strong></td>
+        <td><strong>SEO067 / Nagaraj</strong></td>
+        <td><input type="text" name="site" class="form-control"></td>
+        <td><strong><input type="radio" name="attedance" value="P"> P <input type="radio" name="attedance" value="A"> A</strong></td>
+        <td><input type="text" name="salary" class="form-control"></td>
+        <td><input type="text" name="intime" class="form-control"></td>
+        <td><input type="text" name="outtime" class="form-control"></td>
+        <td><input type="text" name="launchtime" class="form-control"></td>
+        <td><input type="text" name="overtime" class="form-control"></td>
+        <td><input type="text" name="advanceamt" class="form-control"></td>
+        <td><input type="text" name="totaltime" class="form-control"></td>
+      </tr>
+      <tr>
+        <td><strong>3</strong></td>
+        <td><strong>SEO067rrr / Nagaraj</strong></td>
+        <td><input type="text" name="site" class="form-control"></td>
+        <td><strong><input type="radio" name="attedance" value="P"> P <input type="radio" name="attedance" value="A"> A</strong></td>
+        <td><input type="text" name="salary" class="form-control"></td>
+        <td><input type="text" name="intime" class="form-control"></td>
+        <td><input type="text" name="outtime" class="form-control"></td>
+        <td><input type="text" name="launchtime" class="form-control"></td>
+        <td><input type="text" name="overtime" class="form-control"></td>
+        <td><input type="text" name="advanceamt" class="form-control"></td>
+        <td><input type="text" name="totaltime" class="form-control"></td>
+      </tr>
+      <tr>
+        <td><strong>4</strong></td>
+        <td><strong>WEB001 / NSuresh</strong></td>
+        <td><input type="text" name="site" class="form-control"></td>
+        <td><strong><input type="radio" name="attedance" value="P"> P <input type="radio" name="attedance" value="A"> A</strong></td>
+        <td><input type="text" name="salary" class="form-control"></td>
+        <td><input type="text" name="intime" class="form-control"></td>
+        <td><input type="text" name="outtime" class="form-control"></td>
+        <td><input type="text" name="launchtime" class="form-control"></td>
+        <td><input type="text" name="overtime" class="form-control"></td>
+        <td><input type="text" name="advanceamt" class="form-control"></td>
+        <td><input type="text" name="totaltime" class="form-control"></td>
+      </tr>
+      <tr>
+        <td colspan="10"></td>
+        <td><input type="submit" value="Submit" class="btn btn-primary"></td>
+      </tr>
+    </table>
+  </div>
+  <div class="container">
+    <div class="footer">
+      <p>Copyright &copy; 2019 ~ <a href="https://www.wildanfuady.com">Wildan Fuady</a> | <a href="https://www.saungit.web.id">Saung IT</a></p>
+    </div>
+  </div>
+</body>
+</html>
+</pre>
