@@ -85,3 +85,24 @@ Berikut scriptnya:
 </body>
 </html>
 </pre>
+
+Langkah kedua buat style.css dengan scripct berikut:
+
+.table{
+  font-size: 9pt;
+}
+th{
+  border: 1px solid #f4f4f4;
+  background: #dedede;
+  padding: 5px;
+}
+.footer{
+  text-align: center;
+}
+.footer a:hover{
+  text-decoration-line: none;
+}
+
+Simpan lalu jalankan file HTML Anda.
+
+Happy Coding!
