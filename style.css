@@ -1,0 +1,14 @@
+.table{
+  font-size: 9pt;
+}
+th{
+  border: 1px solid #f4f4f4;
+  background: #dedede;
+  padding: 5px;
+}
+.footer{
+  text-align: center;
+}
+.footer a:hover{
+  text-decoration-line: none;
+}
